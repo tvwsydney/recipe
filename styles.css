@@ -56,3 +56,91 @@ table {
     --lt-blue: rgba(122,191,191,.5);
     --orange: #EB5428;
 }
+
+ul {
+	max-height: 0;
+	overflow: hidden;
+}
+
+input:checked ~ ul {
+	max-height: 500px;
+}
+
+input {
+	display: none;
+}
+
+html{
+	background-color: var(--lt-blue);
+}
+
+h1{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 40px;
+}
+
+h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+}
+
+h3{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 25px;
+}
+
+nav a{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+nav span{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+menu li{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+#social li{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+footer{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+dd{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+nav{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+input{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+dt{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
